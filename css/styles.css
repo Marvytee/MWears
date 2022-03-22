@@ -39,8 +39,7 @@ p {
 .homeimage {
   width: 70%;
   height: 80%;
-  transform: translate( 20px, 10px);
-  transform: skewX(10deg);
+  transform: translate( 40px, 10px);
 }
 /* shop */
 #shop {
@@ -87,16 +86,27 @@ p {
 .me {
   font-size: 1rem;
 }
-@media (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+
+
   #home {
     text-align: center;
   }
   .homeimage{
-    margin-top: 3%;
-    transform: translate(50px, 50px);
+    margin-top: 4%;
+    transform: translate(0,0);
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 3.5rem;
   }
   p {
-    font-size: 2rem;
+    font-size: 3rem;
   }
-
+  .shopimage {
+    width: 50%;
+    height: 50%;
+  }
 }
