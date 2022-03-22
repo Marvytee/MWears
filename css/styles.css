@@ -87,9 +87,13 @@ p {
 .me {
   font-size: 1rem;
 }
-@media (max-width: 800px;) {
-  .#home {
+@media (max-width: 800px) {
+  #home {
     text-align: center;
+  }
+  .homeimage{
+    margin-top: 3%;
+    transform: translate(50px, 50px);
   }
   p {
     font-size: 2rem;
