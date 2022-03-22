@@ -1,0 +1,98 @@
+/* home */
+#home {
+  background-color: #524A4E;
+  color: #FDEFF4;
+  padding: 3% 7%;
+}
+.navbar-nav {
+  margin-left: 50%;
+}
+.navbar {
+  margin: 2% 0;
+}
+.navbar-brand {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 2.7rem;
+}
+.nav-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 0 2%;
+}
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+h3 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+p {
+  font-family: 'Mukta', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.homeimage {
+  width: 70%;
+  height: 80%;
+  transform: translate( 20px, 10px);
+  transform: skewX(10deg);
+}
+/* shop */
+#shop {
+  background-color: #FF5C8D;
+  color: #FFC0D3;
+  padding: 4% 7%;
+  text-align: center;
+  line-height: 2;
+}
+.shopimage {
+  width: 60%;
+  height: 60%;
+  margin: 2% 3%;
+  border-radius: 20%;
+}
+/* carousel */
+#carousel {
+  background-color: #524A4E;
+  color: #FDEFF4;
+  padding: 6% 7%;
+  text-align: center;
+}
+.carouselimage {
+  width: 50%;
+  height: 50%;
+  border-radius: 10%;
+}
+.carousel-text {
+  margin-top: 2%;
+}
+/* contact */
+#contact {
+  background-color: #FF5C8D;
+  color:#FFC0D3;
+  padding: 3% 7%;
+  text-align: center;
+}
+.icons {
+  margin: 0 3%;
+}
+.copy {
+  margin-top: 2%
+}
+.me {
+  font-size: 1rem;
+}
+@media (max-width: 800px;) {
+  .#home {
+    text-align: center;
+  }
+  p {
+    font-size: 2rem;
+  }
+
+}
